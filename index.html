@@ -11,7 +11,7 @@
       <h1>E-Ticaret</h1>
       <input id="inpute" type="text" placeholder="ürün ismi giriniz" />
       <div>
-        <button>Sepet</button>
+        <button id="open-btn">Sepet</button>
         <button>Kaydol</button>
         <button>Giriş</button>
       </div>
@@ -21,26 +21,23 @@
       <div class="category-wrapper">
         <h1>Kategoriler</h1>
         <div class="categories">
-          <div class="category">
-            <!-- oluşturmak istediğimiz div içeriği; 
-            <img src="https://picsum.photos/640/640?r=1538" alt="" />
-            <span>Clothes</span>  
-          --></div>
+          <div class="category"></div>
         </div>
       </div>
       <!-- ürünler -->
       <div class="product-wrapper">
         <h1>Ürünler</h1>
-        <div class="products">
-          <!-- <div class="product">
-             <img src="https://picsum.photos/640/640?r=1538"  />
-            <p>Recycled Soft Bacon</p>
-            <p>Shoes</p>
-            <div class="product-action">
-              <p>689$</p>
-              <button>Sepete Ekle</button>
-            </div> 
-          </div> -->
+        <div class="products"></div>
+      </div>
+      <div class="modal-wrapper">
+        <div class="modal">
+          <img id="close-btn" src="images/icon.png" alt="" />
+          <div class="modal-list"></div>
+          <div class="total">
+            Toplam:
+            <span id="modal-info">0</span>
+            $
+          </div>
         </div>
       </div>
     </main>
